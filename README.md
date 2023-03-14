@@ -1,6 +1,6 @@
 <div style="text-align:center;">
   <a>
-    <img src="brain.png" alt="banner" height="auto" width="70%">
+    <img src="https://github.com/amrsa1/amrsa1/blob/main/banner.jpg" alt="banner" height="auto" width="70%">
   </a>
 </div>
 
