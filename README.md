@@ -40,10 +40,9 @@ Check out my LinkedIn/Medium page below for more information about my expertise:
   <h2>🎉 My open source projects</h2>
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=Android-Emulator&theme=dark)](https://github.com/amrsa1/Android-Emulator)
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=playwright-android&theme=dark)](https://github.com/amrsa1/playwright-android)  
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=android-emulator-workflow&theme=dark)](https://github.com/amrsa1/android-emulator-workflow)
-  
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=playwright-android&theme=dark)](https://github.com/amrsa1/playwright-android) 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=GPT-unitest&theme=dark)](https://github.com/amrsa1/GPT-unitest)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=android-emulator-workflow&theme=dark)](https://github.com/amrsa1/android-emulator-workflow)
  
 
 </div>
