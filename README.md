@@ -46,5 +46,6 @@ Check out my LinkedIn/Medium page below for more information about my expertise:
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=GPT-unitTest&theme=dark)](https://github.com/amrsa1/GPT-unitTest)
   
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=wdio-nativeApp&theme=dark)](https://github.com/amrsa1/wdio-nativeApp)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=wdio-xplatform-mobile-app&theme=dark)](https://github.com/amrsa1/wdio-xplatform-mobile-app)
   
 </div>
