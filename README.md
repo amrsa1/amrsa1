@@ -20,7 +20,7 @@ Check out my LinkedIn/Medium page below for more information about my expertise:
 
 
 - 📫 For free to conatct me on [email](mailto:akamel.salim@gmail.com) for any cooperation or consultancy.
-- 💬 Glad to answer any question related to softwar testing, Web/mobile automtaion , API..etc
+- 💬 Glad to answer any question related to softwar testing, Web/mobile automtaion, API testing, CICD Integration..etc
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -49,6 +49,8 @@ Check out my LinkedIn/Medium page below for more information about my expertise:
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=wdio-xplatform-mobile-app&theme=dark)](https://github.com/amrsa1/wdio-xplatform-mobile-app)
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=desktopAppAutomationTest&theme=dark)](https://github.com/amrsa1/desktopAppAutomationTest)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=playwright-APITesting&theme=dark)](https://github.com/amrsa1/playwright-APITesting)
+
 
   
 </div>
