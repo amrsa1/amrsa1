@@ -9,7 +9,7 @@
 
 Hi 👋,
 
-I'm Amr Salem. I'm a Senior Software QA Automation Engineer/Lead/Scrum Master with experience working in diverse, international environments. I have a comprehensive understanding of the full system development life cycle, including designing, developing, and implementing test plans, test cases, and processes for swift corrective actions on team and organizational level. In addition, I specialize in QA automation for web, mobile, and API testing, as well as load and performance testing.
+I'm Amr Salem. I'm a Senior Software QA Automation Engineer/Lead/QA Principal with experience working in diverse, international environments. I have a comprehensive understanding of the full system development life cycle, including designing, developing, and implementing test plans, test cases, and processes for swift corrective actions on team and organizational level. In addition, I specialize in QA automation for web, mobile, and API testing, as well as load and performance testing.
 
 Check out my LinkedIn/Medium page below for more information about my expertise:
 
