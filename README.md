@@ -50,7 +50,5 @@ Check out my LinkedIn/Medium page below for more information about my expertise:
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=desktopAppAutomationTest&theme=dark)](https://github.com/amrsa1/desktopAppAutomationTest)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=playwright-APITesting&theme=dark)](https://github.com/amrsa1/playwright-APITesting)
-
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=UniParser&theme=dark)](https://github.com/amrsa1/UniParser)
   
 </div>
