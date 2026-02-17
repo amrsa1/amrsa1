@@ -68,6 +68,8 @@
 <div align="center">
   <h2>🎉 My Open Source Projects</h2>
 
+  [![ReadMe Card](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=amrsa1&repo=healwright&theme=dark)](https://github.com/amrsa1/healwright)
+
   [![ReadMe Card](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=amrsa1&repo=swagger-mcp&theme=dark)](https://github.com/amrsa1/swagger-mcp)
   [![ReadMe Card](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=amrsa1&repo=Android-Emulator&theme=dark)](https://github.com/amrsa1/Android-Emulator)
 
