@@ -1,89 +1,218 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/amrsa1/amrsa1/main/brain.png" alt="banner" width="100%">
-  
-  <br>
-  
-  ![](https://visitor-badge.laobi.icu/badge?page_id=amrsa1)
 
-  <br>
+<img src="https://raw.githubusercontent.com/amrsa1/amrsa1/main/brain.png" alt="Amr Salem Banner" width="100%" />
 
-  # Hi 👋, I'm Amr Salem
+<br />
 
-  <a href="https://amr-salem.com">
-    <img src="https://img.shields.io/badge/🌐_Visit_My_Portfolio-amr--salem.com-bd2c00?style=for-the-badge&logo=google-chrome&logoColor=white" height="40" alt="Amr Salem Website"/>
-  </a>
+<img src="https://visitor-badge.laobi.icu/badge?page_id=amrsa1" alt="Profile Views" />
 
-  <br>
-  <br>
+# Hi 👋, I'm Amr Salem
 
-  I'm a **Senior Software QA Automation Engineer/Lead/QA Principal** with experience working in diverse, international environments. <br>
-  I have a comprehensive understanding of the full system development life cycle, designing and implementing test plans, and automating testing processes for web, mobile, and APIs.
+### Senior Software QA Automation Engineer · QA Lead · QA Principal
 
-  <br>
+I specialize in **Test Automation, Performance Testing, API Testing, and CI/CD Integration**.
 
-  <b><i>I specialize in QA automation, load/performance testing, and CI/CD integration.</i></b>
+With experience working in diverse international environments, I have a strong understanding of the complete software development lifecycle — from designing test strategies and test plans to building scalable automation solutions for **Web, Mobile, and APIs**.
 
-  <br>
-  <br>
+<br />
 
-  <a href="https://medium.com/@Amr.sa"><img src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" height=30></a>
-  <a href="https://www.linkedin.com/in/amrsalem1/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height=30></a>
-  <a href="mailto:akamel.salim@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height=30></a>
+<a href="https://amr-salem.com">
+  <img src="https://img.shields.io/badge/🌐_Portfolio-amr--salem.com-bd2c00?style=for-the-badge" alt="Portfolio" />
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/amrsalem1/">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+&nbsp;
+<a href="https://medium.com/@Amr.sa">
+  <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
+</a>
+&nbsp;
+<a href="mailto:akamel.salim@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
 
-  <br>
-  <br>
-  
-  📫 **Contact:** [akamel.salim@gmail.com](mailto:akamel.salim@gmail.com) &nbsp;|&nbsp; 💬 **Expertise:** Testing, Automation, CI/CD
+<br />
+<br />
+
+📫 **Contact:** [akamel.salim@gmail.com](mailto:akamel.salim@gmail.com)  
+💬 **Focus:** Testing · Automation · Performance · CI/CD
 
 </div>
 
-<br>
+---
+
+## 📊 GitHub Stats
 
 <div align="center">
-  <h2>📊 Profile Stats</h2>
 
-  ![Amr's GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=amrsa1&show_icons=true&theme=radical)
-  <br>
-  ![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=amrsa1&hide=scss,css,html&theme=radical&layout=compact)
+<img
+  width="49%"
+  src="https://github-readme-stats.vercel.app/api?username=amrsa1&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"
+  alt="Amr Salem GitHub Stats"
+/>
+
+<img
+  width="49%"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=amrsa1&hide=scss,css,html&theme=tokyonight&layout=compact&hide_border=true"
+  alt="Amr Salem Top Languages"
+/>
+
 </div>
 
-<br>
+---
+
+## 📕 Latest Blog Posts
 
 <div align="center">
-  <h2>📕 Latest Blog Posts</h2>
-  <a target="_blank" href="https://medium.com/@Amr.sa">
-    <img src="https://github-readme-medium-recent-article.vercel.app/medium/@Amr.sa/0" alt="Medium Article 0">
-  </a>
-  <a target="_blank" href="https://medium.com/@Amr.sa">
-    <img src="https://github-readme-medium-recent-article.vercel.app/medium/@Amr.sa/1" alt="Medium Article 1">
-  </a>
-  <br>
-  <a href="https://medium.com/@Amr.sa">
-    <img src="https://img.shields.io/badge/Read_More_Blogs-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Read More Blogs"/>
-  </a>
+
+<a href="https://medium.com/@Amr.sa">
+  <img
+    width="49%"
+    src="https://github-readme-medium-recent-article.vercel.app/medium/@Amr.sa/0"
+    alt="Latest Medium Article"
+  />
+</a>
+
+<a href="https://medium.com/@Amr.sa">
+  <img
+    width="49%"
+    src="https://github-readme-medium-recent-article.vercel.app/medium/@Amr.sa/1"
+    alt="Recent Medium Article"
+  />
+</a>
+
+<br />
+<br />
+
+<a href="https://medium.com/@Amr.sa">
+  <img
+    src="https://img.shields.io/badge/Read_More_on_Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"
+    alt="Read More on Medium"
+  />
+</a>
+
 </div>
 
-<br>
+---
+
+## 🚀 Open Source Projects
 
 <div align="center">
-  <h2>🎉 My Open Source Projects</h2>
 
-  [![ReadMe Card](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=amrsa1&repo=healwright&theme=dark)](https://github.com/amrsa1/healwright)
+<a href="https://github.com/amrsa1/healwright">
+  <img
+    width="49%"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=healwright&theme=tokyonight&hide_border=true"
+    alt="healwright"
+  />
+</a>
 
-  [![ReadMe Card](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=amrsa1&repo=multimodal-hybrid-rag&theme=dark)](https://github.com/amrsa1/multimodal-hybrid-rag)
+<a href="https://github.com/amrsa1/multimodal-hybrid-rag">
+  <img
+    width="49%"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=multimodal-hybrid-rag&theme=tokyonight&hide_border=true"
+    alt="multimodal-hybrid-rag"
+  />
+</a>
 
-  [![ReadMe Card](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=amrsa1&repo=swagger-mcp&theme=dark)](https://github.com/amrsa1/swagger-mcp)
-  [![ReadMe Card](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=amrsa1&repo=Android-Emulator&theme=dark)](https://github.com/amrsa1/Android-Emulator)
+<a href="https://github.com/amrsa1/swagger-mcp">
+  <img
+    width="49%"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=swagger-mcp&theme=tokyonight&hide_border=true"
+    alt="swagger-mcp"
+  />
+</a>
 
-  [![ReadMe Card](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=amrsa1&repo=playwright-android&theme=dark)](https://github.com/amrsa1/playwright-android)
-  [![ReadMe Card](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=amrsa1&repo=android-emulator-workflow&theme=dark)](https://github.com/amrsa1/android-emulator-workflow)
+<a href="https://github.com/amrsa1/Android-Emulator">
+  <img
+    width="49%"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=Android-Emulator&theme=tokyonight&hide_border=true"
+    alt="Android Emulator"
+  />
+</a>
 
-  [![ReadMe Card](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=amrsa1&repo=GPT-unitTest&theme=dark)](https://github.com/amrsa1/GPT-unitTest)
-  [![ReadMe Card](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=amrsa1&repo=wdio-nativeApp&theme=dark)](https://github.com/amrsa1/wdio-nativeApp)
+<a href="https://github.com/amrsa1/playwright-android">
+  <img
+    width="49%"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=playwright-android&theme=tokyonight&hide_border=true"
+    alt="playwright-android"
+  />
+</a>
 
-  [![ReadMe Card](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=amrsa1&repo=wdio-xplatform-mobile-app&theme=dark)](https://github.com/amrsa1/wdio-xplatform-mobile-app)
-  [![ReadMe Card](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=amrsa1&repo=desktopAppAutomationTest&theme=dark)](https://github.com/amrsa1/desktopAppAutomationTest)
+<a href="https://github.com/amrsa1/android-emulator-workflow">
+  <img
+    width="49%"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=android-emulator-workflow&theme=tokyonight&hide_border=true"
+    alt="android-emulator-workflow"
+  />
+</a>
 
-  [![ReadMe Card](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=amrsa1&repo=playwright-APITesting&theme=dark)](https://github.com/amrsa1/playwright-APITesting)
-  [![ReadMe Card](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=amrsa1&repo=UniParser&theme=dark)](https://github.com/amrsa1/UniParser)
+<a href="https://github.com/amrsa1/GPT-unitTest">
+  <img
+    width="49%"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=GPT-unitTest&theme=tokyonight&hide_border=true"
+    alt="GPT-unitTest"
+  />
+</a>
+
+<a href="https://github.com/amrsa1/wdio-nativeApp">
+  <img
+    width="49%"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=wdio-nativeApp&theme=tokyonight&hide_border=true"
+    alt="wdio-nativeApp"
+  />
+</a>
+
+<a href="https://github.com/amrsa1/wdio-xplatform-mobile-app">
+  <img
+    width="49%"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=wdio-xplatform-mobile-app&theme=tokyonight&hide_border=true"
+    alt="wdio-xplatform-mobile-app"
+  />
+</a>
+
+<a href="https://github.com/amrsa1/desktopAppAutomationTest">
+  <img
+    width="49%"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=desktopAppAutomationTest&theme=tokyonight&hide_border=true"
+    alt="desktopAppAutomationTest"
+  />
+</a>
+
+<a href="https://github.com/amrsa1/playwright-APITesting">
+  <img
+    width="49%"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=playwright-APITesting&theme=tokyonight&hide_border=true"
+    alt="playwright-APITesting"
+  />
+</a>
+
+<a href="https://github.com/amrsa1/UniParser">
+  <img
+    width="49%"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=UniParser&theme=tokyonight&hide_border=true"
+    alt="UniParser"
+  />
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+### 🤝 Let's Connect
+
+Interested in **QA Automation, AI-assisted Testing, Mobile Automation, Performance Engineering, or CI/CD?**
+
+Feel free to connect with me on  
+[LinkedIn](https://www.linkedin.com/in/amrsalem1/) ·
+[Medium](https://medium.com/@Amr.sa) ·
+[Portfolio](https://amr-salem.com)
+
+<br />
+
+⭐ **Building better software through better quality engineering.**
+
 </div>
