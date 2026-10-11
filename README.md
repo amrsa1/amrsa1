@@ -6,7 +6,7 @@
   width="100%"
 />
 
-<br />
+<br>
 
 <img
   src="https://visitor-badge.laobi.icu/badge?page_id=amrsa1"
@@ -21,42 +21,26 @@ I specialize in **Test Automation, Performance Testing, API Testing, Mobile Test
 
 I have experience working in diverse international environments and across the complete software development lifecycle — from defining test strategies and test plans to building scalable automation solutions for **Web, Mobile, APIs, and distributed systems**.
 
-<br />
+<br>
 
-<a href="https://amr-salem.com">
-  <img
-    src="https://img.shields.io/badge/Portfolio-amr--salem.com-bd2c00?style=for-the-badge&logo=googlechrome&logoColor=white"
-    alt="Portfolio"
-  />
-</a>
+<a href="https://amr-salem.com"><kbd>🌐 Portfolio</kbd></a>
+&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/amrsalem1/"><kbd>💼 LinkedIn</kbd></a>
+&nbsp;&nbsp;
+<a href="https://medium.com/@Amr.sa"><kbd>✍️ Medium</kbd></a>
+&nbsp;&nbsp;
+<a href="mailto:akamel.salim@gmail.com"><kbd>📧 Email</kbd></a>
 
-<a href="https://www.linkedin.com/in/amrsalem1/">
-  <img
-    src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-    alt="LinkedIn"
-  />
-</a>
-
-<a href="https://medium.com/@Amr.sa">
-  <img
-    src="https://img.shields.io/badge/Medium-Blog-12100E?style=for-the-badge&logo=medium&logoColor=white"
-    alt="Medium"
-  />
-</a>
-
-<a href="mailto:akamel.salim@gmail.com">
-  <img
-    src="https://img.shields.io/badge/Gmail-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"
-    alt="Email"
-  />
-</a>
-
-<br />
-<br />
+<br>
+<br>
 
 📫 **Contact**
 
-[akamel.salim@gmail.com](mailto:akamel.salim@gmail.com)
+<a href="mailto:akamel.salim@gmail.com">
+  akamel.salim@gmail.com
+</a>
+
+<br>
 
 💬 **Focus**
 
@@ -71,15 +55,15 @@ Testing · Automation · Performance · API · Mobile · CI/CD
 <div align="center">
 
 <img
+  width="48%"
   src="https://github-readme-stats.vercel.app/api?username=amrsa1&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"
   alt="Amr Salem GitHub Stats"
-  width="48%"
 />
 
 <img
+  width="48%"
   src="https://github-readme-stats.vercel.app/api/top-langs/?username=amrsa1&hide=scss,css,html&theme=tokyonight&layout=compact&hide_border=true"
   alt="Amr Salem Top Languages"
-  width="48%"
 />
 
 </div>
@@ -92,31 +76,28 @@ Testing · Automation · Performance · API · Mobile · CI/CD
 
 <a href="https://medium.com/@Amr.sa">
   <img
+    width="90%"
     src="https://github-readme-medium-recent-article.vercel.app/medium/@Amr.sa/0"
     alt="Latest Medium Article"
-    width="90%"
   />
 </a>
 
-<br />
-<br />
+<br>
+<br>
 
 <a href="https://medium.com/@Amr.sa">
   <img
+    width="90%"
     src="https://github-readme-medium-recent-article.vercel.app/medium/@Amr.sa/1"
     alt="Recent Medium Article"
-    width="90%"
   />
 </a>
 
-<br />
-<br />
+<br>
+<br>
 
 <a href="https://medium.com/@Amr.sa">
-  <img
-    src="https://img.shields.io/badge/Read_More-Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"
-    alt="Read More on Medium"
-  />
+  <kbd>✍️ Read More on Medium</kbd>
 </a>
 
 </div>
@@ -129,97 +110,97 @@ Testing · Automation · Performance · API · Mobile · CI/CD
 
 <a href="https://github.com/amrsa1/healwright">
   <img
+    width="48%"
     src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=healwright&theme=tokyonight&hide_border=true"
     alt="healwright"
-    width="48%"
   />
 </a>
 
 <a href="https://github.com/amrsa1/multimodal-hybrid-rag">
   <img
+    width="48%"
     src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=multimodal-hybrid-rag&theme=tokyonight&hide_border=true"
     alt="multimodal-hybrid-rag"
-    width="48%"
   />
 </a>
 
 <a href="https://github.com/amrsa1/swagger-mcp">
   <img
+    width="48%"
     src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=swagger-mcp&theme=tokyonight&hide_border=true"
     alt="swagger-mcp"
-    width="48%"
   />
 </a>
 
 <a href="https://github.com/amrsa1/Android-Emulator">
   <img
+    width="48%"
     src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=Android-Emulator&theme=tokyonight&hide_border=true"
     alt="Android Emulator"
-    width="48%"
   />
 </a>
 
 <a href="https://github.com/amrsa1/playwright-android">
   <img
+    width="48%"
     src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=playwright-android&theme=tokyonight&hide_border=true"
     alt="playwright-android"
-    width="48%"
   />
 </a>
 
 <a href="https://github.com/amrsa1/android-emulator-workflow">
   <img
+    width="48%"
     src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=android-emulator-workflow&theme=tokyonight&hide_border=true"
     alt="android-emulator-workflow"
-    width="48%"
   />
 </a>
 
 <a href="https://github.com/amrsa1/GPT-unitTest">
   <img
+    width="48%"
     src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=GPT-unitTest&theme=tokyonight&hide_border=true"
     alt="GPT-unitTest"
-    width="48%"
   />
 </a>
 
 <a href="https://github.com/amrsa1/wdio-nativeApp">
   <img
+    width="48%"
     src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=wdio-nativeApp&theme=tokyonight&hide_border=true"
     alt="wdio-nativeApp"
-    width="48%"
   />
 </a>
 
 <a href="https://github.com/amrsa1/wdio-xplatform-mobile-app">
   <img
+    width="48%"
     src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=wdio-xplatform-mobile-app&theme=tokyonight&hide_border=true"
     alt="wdio-xplatform-mobile-app"
-    width="48%"
   />
 </a>
 
 <a href="https://github.com/amrsa1/desktopAppAutomationTest">
   <img
+    width="48%"
     src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=desktopAppAutomationTest&theme=tokyonight&hide_border=true"
     alt="desktopAppAutomationTest"
-    width="48%"
   />
 </a>
 
 <a href="https://github.com/amrsa1/playwright-APITesting">
   <img
+    width="48%"
     src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=playwright-APITesting&theme=tokyonight&hide_border=true"
     alt="playwright-APITesting"
-    width="48%"
   />
 </a>
 
 <a href="https://github.com/amrsa1/UniParser">
   <img
+    width="48%"
     src="https://github-readme-stats.vercel.app/api/pin/?username=amrsa1&repo=UniParser&theme=tokyonight&hide_border=true"
     alt="UniParser"
-    width="48%"
   />
 </a>
 
@@ -227,20 +208,66 @@ Testing · Automation · Performance · API · Mobile · CI/CD
 
 ---
 
+## 🧰 Tech & QA Focus
+
 <div align="center">
 
-### 🤝 Let's Connect
+**Test Automation**  
+Playwright · WebdriverIO · Selenium · Appium
 
-Interested in **QA Automation, AI-assisted Testing, Mobile Automation, Performance Engineering, or CI/CD?**
+**API & Backend Testing**  
+REST APIs · Swagger/OpenAPI · API Automation · Contract Testing
 
-<a href="https://www.linkedin.com/in/amrsalem1/">LinkedIn</a>
-&nbsp;•&nbsp;
-<a href="https://medium.com/@Amr.sa">Medium</a>
-&nbsp;•&nbsp;
-<a href="https://amr-salem.com">Portfolio</a>
+**Mobile Testing**  
+Android · Native Apps · Cross-Platform Automation · Emulator Automation
 
-<br />
-<br />
+**Performance Engineering**  
+Load Testing · Performance Testing · Scalability Testing
+
+**CI/CD & DevOps**  
+GitHub Actions · CI/CD Pipelines · Docker · Automated Quality Gates
+
+**AI & Modern QA**  
+AI-Assisted Testing · RAG · MCP · Automated Test Generation
+
+</div>
+
+---
+
+## 💡 Areas of Interest
+
+<div align="center">
+
+🤖 AI-Assisted Software Testing  
+📱 Mobile Automation  
+⚡ Performance Engineering  
+🔌 API Automation  
+🧪 Quality Engineering  
+🚀 CI/CD & DevOps  
+🧠 LLM & RAG Applications
+
+</div>
+
+---
+
+## 🤝 Let's Connect
+
+<div align="center">
+
+Interested in **QA Automation, AI-assisted Testing, Mobile Automation, Performance Engineering, API Testing, or CI/CD?**
+
+<br>
+
+<a href="https://www.linkedin.com/in/amrsalem1/"><kbd>💼 LinkedIn</kbd></a>
+&nbsp;&nbsp;
+<a href="https://medium.com/@Amr.sa"><kbd>✍️ Medium</kbd></a>
+&nbsp;&nbsp;
+<a href="https://amr-salem.com"><kbd>🌐 Portfolio</kbd></a>
+&nbsp;&nbsp;
+<a href="mailto:akamel.salim@gmail.com"><kbd>📧 Email</kbd></a>
+
+<br>
+<br>
 
 **Building better software through better quality engineering.**
 
