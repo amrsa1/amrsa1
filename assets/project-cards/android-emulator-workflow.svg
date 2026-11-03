@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="610" height="236" viewBox="0 0 610 236" role="img" aria-label="android-emulator-workflow GitHub project">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17192b"/><stop offset="1" stop-color="#101921"/></linearGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#b08af6"/><stop offset="0.52" stop-color="#6c9eff"/><stop offset="1" stop-color="#43cfc5"/></linearGradient>
+<radialGradient id="glow" cx="0.08" cy="0.05" r="1"><stop stop-color="#6257c7" stop-opacity="0.25"/><stop offset="1" stop-color="#131722" stop-opacity="0"/></radialGradient>
+<clipPath id="card"><rect x="2" y="2" width="606" height="232" rx="14"/></clipPath>
+</defs>
+<rect x="2" y="2" width="606" height="232" rx="14" fill="url(#bg)" stroke="#39435b" stroke-width="2"/>
+<g clip-path="url(#card)"><rect x="2" y="2" width="606" height="232" fill="url(#glow)"/><rect x="2" y="2" width="606" height="5" fill="url(#acc)"/>
+<circle cx="565" cy="193" r="102" fill="#22243a" fill-opacity="0.21"/></g>
+<!-- repository pictogram -->
+<g stroke="#b997ed" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M37 41h15a4 4 0 0 1 4 4v17H37a3 3 0 0 0-3 3V45a4 4 0 0 1 3-4Z"/><path d="M34 65c0-2 2-3 5-3h17v8H40a6 6 0 0 0-6 4Z"/><path d="M39 70v8l4-3 4 3v-8"/></g>
+<g font-family="'Segoe UI', 'Arial', sans-serif">
+<text x="76" y="64" font-size="27" font-weight="700" fill="#81adff">android-emulator-workflow</text>
+<text x="574" y="32" font-size="11" text-anchor="end" font-weight="700" letter-spacing="1.8" fill="#8896b6">OPEN SOURCE</text>
+<text x="35" y="111" font-size="20" font-weight="500" fill="#50cfc5">Ready-to-use Android emulator setup inside GitHub</text>
+<text x="35" y="139" font-size="20" font-weight="500" fill="#50cfc5">Actions workflows.</text>
+<path d="M35 174H575" stroke="#303850" stroke-width="1"/>
+<circle cx="47" cy="203" r="7" fill="#89e051"/>
+<text x="65" y="209" font-size="18" font-weight="600" fill="#b8c7dd">Shell</text>
+<rect x="260" y="188" width="190" height="29" rx="14.5" fill="#242a3d" stroke="#343c56"/>
+<text x="355" y="207.5" font-size="13.4" text-anchor="middle" font-weight="700" letter-spacing="0.3" fill="#b5a3f6">ANDROID • CI/CD</text>
+<text x="574" y="209" font-size="17" text-anchor="end" font-weight="700" fill="#ffad72">VIEW ↗</text>
+</g></svg>
