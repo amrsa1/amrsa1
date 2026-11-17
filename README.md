@@ -1,156 +1,59 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-dark.svg" />
+  <img src="./assets/profile-header.svg" width="100%" alt="Quality, built in. Quality engineering, automation and applied AI." />
+</picture>
 
-<img src="https://raw.githubusercontent.com/amrsa1/amrsa1/main/brain.png" alt="Amr Salem Banner" width="100%" />
+# Amr Salem
 
-<br />
+**QA Principal · Automation Engineer · QA Lead**
 
-<img src="https://visitor-badge.laobi.icu/badge?page_id=amrsa1" alt="Profile Views" />
+I build automation for web, mobile and APIs, and help teams make quality part of everyday delivery. My work spans test strategy, performance engineering and CI/CD, with a growing focus on practical applications of AI in testing and developer tools.
 
-# Hi 👋, I'm Amr Salem
+[Portfolio](https://amr-salem.com) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/amrsalem1/) &nbsp; / &nbsp; [Medium](https://medium.com/@Amr.sa) &nbsp; / &nbsp; [Email](mailto:akamel.salim@gmail.com)
 
-### Senior Software QA Automation Engineer · QA Lead · QA Principal
+## Selected projects
 
-I specialize in **Test Automation, Performance Testing, API Testing, Mobile Testing, and CI/CD Integration**.
+Open source tools for better testing, simpler infrastructure and useful AI.
 
-I have experience working in diverse international environments and across the complete software development lifecycle — from defining test strategies and test plans to building scalable automation solutions for **Web, Mobile, APIs, and distributed systems**.
+<a href="https://github.com/amrsa1/healwright"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/healwright.svg" /><img src="./assets/project-cards/healwright.svg" width="416" alt="healwright — Self-healing Playwright locators, verified by AI and cached for reuse. TypeScript." /></picture></a> <a href="https://github.com/amrsa1/swagger-mcp"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/swagger-mcp.svg" /><img src="./assets/project-cards/swagger-mcp.svg" width="416" alt="swagger-mcp — Explore and test APIs through Swagger / OpenAPI with MCP. JavaScript." /></picture></a>
 
-<br />
+<a href="https://github.com/amrsa1/multimodal-hybrid-rag"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/multimodal-hybrid-rag.svg" /><img src="./assets/project-cards/multimodal-hybrid-rag.svg" width="416" alt="multimodal-hybrid-rag — Multimodal RAG with Gemini, or local text retrieval with Ollama. TypeScript." /></picture></a> <a href="https://github.com/amrsa1/Android-Emulator-image"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/Android-Emulator-image.svg" /><img src="./assets/project-cards/Android-Emulator-image.svg" width="416" alt="Android-Emulator-image — Run Android emulators in Docker for repeatable testing environments. Shell." /></picture></a>
 
-<a href="https://amr-salem.com"><kbd>🌐 Portfolio</kbd></a>
-&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/amrsalem1/"><kbd>💼 LinkedIn</kbd></a>
-&nbsp;&nbsp;
-<a href="https://medium.com/@Amr.sa"><kbd>✍️ Medium</kbd></a>
-&nbsp;&nbsp;
-<a href="mailto:akamel.salim@gmail.com"><kbd>📧 Email</kbd></a>
+<a href="https://github.com/amrsa1/playwright-android"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/playwright-android.svg" /><img src="./assets/project-cards/playwright-android.svg" width="416" alt="playwright-android — A Playwright starter for testing web applications on Android. TypeScript." /></picture></a> <a href="https://github.com/amrsa1/android-emulator-workflow"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/android-emulator-workflow.svg" /><img src="./assets/project-cards/android-emulator-workflow.svg" width="416" alt="android-emulator-workflow — Android emulator setup, ready for your GitHub Actions pipeline. Shell." /></picture></a>
 
-<br /><br />
+<details>
+<summary><strong>More projects</strong> · API, mobile, desktop and developer tooling</summary>
 
-📫 **Contact**
+| Project | What it does |
+| :--- | :--- |
+| [playwright-APITesting](https://github.com/amrsa1/playwright-APITesting) | A structured starting point for API test automation with Playwright. |
+| [wdio-nativeApp](https://github.com/amrsa1/wdio-nativeApp) | Native Android automation with WebdriverIO and GitHub Actions. |
+| [wdio-xplatform-mobile-app](https://github.com/amrsa1/wdio-xplatform-mobile-app) | WebdriverIO testing for Android and iOS, with CI workflows. |
+| [desktopAppAutomationTest](https://github.com/amrsa1/desktopAppAutomationTest) | A practical proof of concept for desktop automation with WebdriverIO. |
+| [GPT-unitTest](https://github.com/amrsa1/GPT-unitTest) | Generate unit tests with OpenAI and run them with a test runner. |
+| [UniParser](https://github.com/amrsa1/UniParser) | Convert PDF, DOCX, HTML, Markdown and text files into plain text. |
 
-<a href="mailto:akamel.salim@gmail.com">akamel.salim@gmail.com</a>
+</details>
 
-<br /><br />
+[Explore all repositories →](https://github.com/amrsa1?tab=repositories)
 
-💬 **Focus**
+## Writing
 
-Testing · Automation · Performance · API · Mobile · CI/CD
+Notes from building tools, testing software and exploring AI.
 
-</div>
+- **[Astur: Mobile Automation Can’t Get Any Easier](https://medium.com/@Amr.sa/astur-mobile-automation-cant-get-any-easier-61b3d648cf3d)**<br />Making mobile automation easier to work with.
+- **[Healwright: Let Your Playwright Tests Heal Their Own Selectors](https://medium.com/@Amr.sa/healwright-let-your-playwright-tests-heal-their-own-selectors-on-the-fly-d0178568f9bc)**<br />A practical approach to self-healing locators.
+- **[When Code Gets Repackaged with an AI Facelift](https://medium.com/@Amr.sa/when-code-gets-repackaged-with-an-ai-facelift-6b027330f0ff)**<br />A perspective on AI, software and originality.
 
----
+## Toolkit & focus
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<a href="https://github.com/amrsa1"><img width="48%" src="https://github-stats-extended.vercel.app/api?username=amrsa1&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;rank_icon=github" alt="Amr Salem GitHub Stats" /></a>
-<a href="https://github.com/amrsa1?tab=repositories"><img width="48%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=amrsa1&amp;hide=scss,css,html&amp;theme=tokyonight&amp;layout=compact&amp;hide_border=true" alt="Amr Salem Top Languages" /></a>
-
-</div>
-
----
-
-## 📕 Latest Blog Posts
-
-<div align="center">
-
-<a href="https://medium.com/@Amr.sa/astur-mobile-automation-cant-get-any-easier-61b3d648cf3d"><img width="92%" src="./assets/blog-cards/astur.svg" alt="Astur: Mobile Automation Can’t Get Any Easier" /></a>
-
-
-<a href="https://medium.com/@Amr.sa/healwright-let-your-playwright-tests-heal-their-own-selectors-on-the-fly-d0178568f9bc"><img width="92%" src="./assets/blog-cards/healwright.svg" alt="Healwright: Let Your Playwright Tests Heal Their Own Selectors" /></a>
-
-
-<a href="https://medium.com/@Amr.sa/when-code-gets-repackaged-with-an-ai-facelift-6b027330f0ff"><img width="92%" src="./assets/blog-cards/facelift.svg" alt="When Code Gets Repackaged with an AI Facelift" /></a>
-
-<br />
-
-<a href="https://medium.com/@Amr.sa"><kbd>✍️ Read More on Medium</kbd></a>
-
-</div>
+| Area | Tools & practice |
+| :--- | :--- |
+| Test automation | Playwright · WebdriverIO · Selenium · Appium |
+| APIs & performance | REST · OpenAPI · Contract testing · Load & scalability testing |
+| Mobile & delivery | Android · Cross-platform testing · Docker · GitHub Actions · Quality gates |
+| Applied AI | AI-assisted testing · MCP · RAG · Test generation |
 
 ---
 
-## 🚀 Open Source Projects
-
-<div align="center">
-
-<a href="https://github.com/amrsa1/healwright"><img width="48%" src="./assets/project-cards/healwright.svg" alt="healwright" /></a>&nbsp;<a href="https://github.com/amrsa1/multimodal-hybrid-rag"><img width="48%" src="./assets/project-cards/multimodal-hybrid-rag.svg" alt="multimodal-hybrid-rag" /></a>
-
-<a href="https://github.com/amrsa1/swagger-mcp"><img width="48%" src="./assets/project-cards/swagger-mcp.svg" alt="swagger-mcp" /></a>&nbsp;<a href="https://github.com/amrsa1/Android-Emulator-image"><img width="48%" src="./assets/project-cards/Android-Emulator-image.svg" alt="Android-Emulator-image" /></a>
-
-<a href="https://github.com/amrsa1/playwright-android"><img width="48%" src="./assets/project-cards/playwright-android.svg" alt="playwright-android" /></a>&nbsp;<a href="https://github.com/amrsa1/android-emulator-workflow"><img width="48%" src="./assets/project-cards/android-emulator-workflow.svg" alt="android-emulator-workflow" /></a>
-
-<a href="https://github.com/amrsa1/GPT-unitTest"><img width="48%" src="./assets/project-cards/GPT-unitTest.svg" alt="GPT-unitTest" /></a>&nbsp;<a href="https://github.com/amrsa1/wdio-nativeApp"><img width="48%" src="./assets/project-cards/wdio-nativeApp.svg" alt="wdio-nativeApp" /></a>
-
-<a href="https://github.com/amrsa1/wdio-xplatform-mobile-app"><img width="48%" src="./assets/project-cards/wdio-xplatform-mobile-app.svg" alt="wdio-xplatform-mobile-app" /></a>&nbsp;<a href="https://github.com/amrsa1/desktopAppAutomationTest"><img width="48%" src="./assets/project-cards/desktopAppAutomationTest.svg" alt="desktopAppAutomationTest" /></a>
-
-<a href="https://github.com/amrsa1/playwright-APITesting"><img width="48%" src="./assets/project-cards/playwright-APITesting.svg" alt="playwright-APITesting" /></a>&nbsp;<a href="https://github.com/amrsa1/UniParser"><img width="48%" src="./assets/project-cards/UniParser.svg" alt="UniParser" /></a>
-
-</div>
-
----
-
-## 🧰 Tech & QA Focus
-
-<div align="center">
-
-**Test Automation**  
-Playwright · WebdriverIO · Selenium · Appium
-
-**API & Backend Testing**  
-REST APIs · Swagger/OpenAPI · API Automation · Contract Testing
-
-**Mobile Testing**  
-Android · Native Apps · Cross-Platform Automation · Emulator Automation
-
-**Performance Engineering**  
-Load Testing · Performance Testing · Scalability Testing
-
-**CI/CD & DevOps**  
-GitHub Actions · CI/CD Pipelines · Docker · Automated Quality Gates
-
-**AI & Modern QA**  
-AI-Assisted Testing · RAG · MCP · Automated Test Generation
-
-</div>
-
----
-
-## 💡 Areas of Interest
-
-<div align="center">
-
-🤖 AI-Assisted Software Testing  
-📱 Mobile Automation  
-⚡ Performance Engineering  
-🔌 API Automation  
-🧪 Quality Engineering  
-🚀 CI/CD & DevOps  
-🧠 LLM & RAG Applications
-
-</div>
-
----
-
-## 🤝 Let's Connect
-
-<div align="center">
-
-Interested in **QA Automation, AI-assisted Testing, Mobile Automation, Performance Engineering, API Testing, or CI/CD?**
-
-<br />
-
-<a href="https://www.linkedin.com/in/amrsalem1/"><kbd>💼 LinkedIn</kbd></a>
-&nbsp;&nbsp;
-<a href="https://medium.com/@Amr.sa"><kbd>✍️ Medium</kbd></a>
-&nbsp;&nbsp;
-<a href="https://amr-salem.com"><kbd>🌐 Portfolio</kbd></a>
-&nbsp;&nbsp;
-<a href="mailto:akamel.salim@gmail.com"><kbd>📧 Email</kbd></a>
-
-<br /><br />
-
-**Building better software through better quality engineering.**
-
-</div>
+<sub>Building better software through better quality engineering.</sub>

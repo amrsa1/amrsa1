@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
+<title id="title">Quality, built in.</title>
+<desc id="desc">Quality engineering, automation and applied AI.</desc>
+<rect x="1" y="1" width="1198" height="218" rx="16" fill="#151b23" stroke="#30363d"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<text x="46" y="51" font-size="13" font-weight="600" letter-spacing="3" fill="#8bd5bc">QUALITY ENGINEERING</text>
+<text x="43" y="125" font-size="65" font-weight="650" letter-spacing="-2.8" fill="#f0f6fc">Quality, built in.</text>
+<text x="46" y="172" font-size="19" fill="#a8b3bf">Thoughtful automation. Reliable systems. Confident delivery.</text>
+</g>
+<g fill="none" stroke="#37594d" stroke-width="1.5">
+<path d="M884 84h54v52h54v-26h54"/>
+<rect x="836" y="60" width="48" height="48" rx="10"/>
+<rect x="938" y="112" width="48" height="48" rx="10" fill="#1c302c"/>
+<rect x="1046" y="86" width="48" height="48" rx="10"/>
+<path d="M860 109v49h77M986 136h84v-1" stroke-dasharray="3 5"/>
+</g>
+<g fill="none" stroke="#8bd5bc" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<path d="m851 84 6 6 12-13M953 136l6 6 12-13m90-19 6 6 12-13"/>
+</g>
+</svg>
