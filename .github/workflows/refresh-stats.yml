@@ -1,0 +1,77 @@
+name: Refresh GitHub stats
+
+on:
+  schedule:
+    - cron: "23 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Generate light overview
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: stats
+          options: '{"username":"amrsa1","card_width":500,"hide_border":true,"bg_color":"f6f8fa","title_color":"216e5e","text_color":"59636e","icon_color":"216e5e","ring_color":"216e5e","disable_animations":true,"custom_title":"GitHub activity","show_icons":true,"hide_rank":false,"rank_icon":"default","number_format":"long"}'
+          path: assets/stats/overview-light.svg
+          core_version: "2.2.0"
+          fail_on_error: "true"
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate light languages
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: top-langs
+          options: '{"username":"amrsa1","card_width":500,"hide_border":true,"bg_color":"f6f8fa","title_color":"216e5e","text_color":"59636e","icon_color":"216e5e","ring_color":"216e5e","disable_animations":true,"custom_title":"Most used languages","layout":"compact","langs_count":6,"hide":"scss,css,html"}'
+          path: assets/stats/languages-light.svg
+          core_version: "2.2.0"
+          fail_on_error: "true"
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate dark overview
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: stats
+          options: '{"username":"amrsa1","card_width":500,"hide_border":true,"bg_color":"151b23","title_color":"8bd5bc","text_color":"a8b3bf","icon_color":"8bd5bc","ring_color":"8bd5bc","disable_animations":true,"custom_title":"GitHub activity","show_icons":true,"hide_rank":false,"rank_icon":"default","number_format":"long"}'
+          path: assets/stats/overview-dark.svg
+          core_version: "2.2.0"
+          fail_on_error: "true"
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate dark languages
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: top-langs
+          options: '{"username":"amrsa1","card_width":500,"hide_border":true,"bg_color":"151b23","title_color":"8bd5bc","text_color":"a8b3bf","icon_color":"8bd5bc","ring_color":"8bd5bc","disable_animations":true,"custom_title":"Most used languages","layout":"compact","langs_count":6,"hide":"scss,css,html"}'
+          path: assets/stats/languages-dark.svg
+          core_version: "2.2.0"
+          fail_on_error: "true"
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Match profile card styling
+        run: python3 scripts/style-stats.py
+
+      - name: Commit refreshed cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats/*.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Refresh GitHub activity and language stats"
+          git pull --rebase origin main
+          git push origin HEAD:main
