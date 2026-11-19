@@ -11,6 +11,14 @@ I build automation for web, mobile and APIs, and help teams make quality part of
 
 [Portfolio](https://amr-salem.com) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/amrsalem1/) &nbsp; / &nbsp; [Medium](https://medium.com/@Amr.sa) &nbsp; / &nbsp; [Email](mailto:akamel.salim@gmail.com)
 
+## GitHub activity
+
+<a href="https://github.com/amrsa1?tab=overview"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stats/overview-dark.svg" /><img src="./assets/stats/overview-light.svg" width="416" alt="GitHub activity: rank, stars earned, commits, pull requests, issues and repositories contributed to." /></picture></a> <a href="https://github.com/amrsa1?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stats/languages-dark.svg" /><img src="./assets/stats/languages-light.svg" width="416" alt="Most used programming languages across public repositories." /></picture></a>
+
+<sub>Public activity · <a href="https://github.com/amrsa1/amrsa1/actions/workflows/refresh-stats.yml">Refreshed daily</a> · <a href="https://github.com/stats-organization/github-stats-extended/blob/master/packages/core/src/calculateRank.ts">How the rank is calculated</a></sub>
+
+![Profile views](https://visitor-badge.laobi.icu/badge?page_id=amrsa1&left_color=%2359636e&right_color=%23216e5e&left_text=Profile%20views)
+
 ## Selected projects
 
 Open source tools for better testing, simpler infrastructure and useful AI.
