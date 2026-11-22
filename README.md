@@ -23,11 +23,15 @@ I build automation for web, mobile and APIs, and help teams make quality part of
 
 Open source tools for better testing, simpler infrastructure and useful AI.
 
+<a href="https://github.com/Astur-mobile/Astur"><picture><source media="(max-width: 1000px) and (prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/Astur-compact.svg" /><source media="(max-width: 1000px)" srcset="./assets/project-cards/Astur-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/Astur.svg" /><img src="./assets/project-cards/Astur.svg" width="836" alt="Astur: Playwright-style testing for real Android and iOS apps, with GitHub stars, forks and download counts for each npm package." /></picture></a>
+
 <a href="https://github.com/amrsa1/healwright"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/healwright.svg" /><img src="./assets/project-cards/healwright.svg" width="416" alt="healwright — Self-healing Playwright locators, verified by AI and cached for reuse. TypeScript." /></picture></a> <a href="https://github.com/amrsa1/swagger-mcp"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/swagger-mcp.svg" /><img src="./assets/project-cards/swagger-mcp.svg" width="416" alt="swagger-mcp — Explore and test APIs through Swagger / OpenAPI with MCP. JavaScript." /></picture></a>
 
 <a href="https://github.com/amrsa1/multimodal-hybrid-rag"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/multimodal-hybrid-rag.svg" /><img src="./assets/project-cards/multimodal-hybrid-rag.svg" width="416" alt="multimodal-hybrid-rag — Multimodal RAG with Gemini, or local text retrieval with Ollama. TypeScript." /></picture></a> <a href="https://github.com/amrsa1/Android-Emulator-image"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/Android-Emulator-image.svg" /><img src="./assets/project-cards/Android-Emulator-image.svg" width="416" alt="Android-Emulator-image — Run Android emulators in Docker for repeatable testing environments. Shell." /></picture></a>
 
 <a href="https://github.com/amrsa1/playwright-android"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/playwright-android.svg" /><img src="./assets/project-cards/playwright-android.svg" width="416" alt="playwright-android — A Playwright starter for testing web applications on Android. TypeScript." /></picture></a> <a href="https://github.com/amrsa1/android-emulator-workflow"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/android-emulator-workflow.svg" /><img src="./assets/project-cards/android-emulator-workflow.svg" width="416" alt="android-emulator-workflow — Android emulator setup, ready for your GitHub Actions pipeline. Shell." /></picture></a>
+
+<sub>Stars, forks and npm downloads refresh daily. Download counts cover the last month.</sub>
 
 <details>
 <summary><strong>More projects</strong> · API, mobile, desktop and developer tooling</summary>

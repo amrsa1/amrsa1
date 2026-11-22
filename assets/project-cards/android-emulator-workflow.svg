@@ -1,18 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="572" height="260" viewBox="-6 0 572 260" role="img" aria-labelledby="title desc">
 <title id="title">android-emulator-workflow</title>
-<desc id="desc">android-emulator-workflow. Android emulator setup, ready for your GitHub Actions pipeline. Shell.</desc>
+<desc id="desc">android-emulator-workflow. Set up an Android emulator in a GitHub Actions workflow. 18 stars, 22 forks.</desc>
 <rect x="1" y="1" width="558" height="246" rx="12" fill="#f6f8fa" stroke="#d8dee4"/>
 <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
-<text x="30" y="39" font-size="11" font-weight="600" letter-spacing="1.6" fill="#216e5e">CI / ANDROID AUTOMATION</text>
-<text x="530" y="39" text-anchor="end" font-size="11" fill="#6e7781">06</text>
-<g fill="#1f2328"><text x="30" y="83" font-size="28" font-weight="650" letter-spacing="-0.6">android-emulator-</text>
-<text x="30" y="114" font-size="28" font-weight="650" letter-spacing="-0.6">workflow</text></g>
-<g fill="#59636e"><text x="30" y="148" font-size="19">Android emulator setup, ready</text>
-<text x="30" y="174" font-size="19">for your GitHub Actions pipeline.</text></g>
+<text x="30" y="39" font-size="13" fill="#216e5e" font-weight="650" text-anchor="start">ANDROID CI  /  SHELL</text>
+<text x="30" y="94" font-size="27" fill="#1f2328" font-weight="650" text-anchor="start">android-emulator-workflow</text>
+<text x="30" y="140" font-size="19" fill="#59636e" font-weight="400" text-anchor="start">Set up an Android emulator</text>
+<text x="30" y="165" font-size="19" fill="#59636e" font-weight="400" text-anchor="start">in a GitHub Actions workflow.</text>
 <path d="M30 195H530" stroke="#d8dee4"/>
-<circle cx="35" cy="220" r="4" fill="#216e5e"/>
-<text x="48" y="225" font-size="14" fill="#59636e">Shell</text>
-<text x="173" y="225" font-size="13" fill="#6e7781">GitHub Actions</text>
+<text x="30" y="223" font-size="16" fill="#1f2328" font-weight="650" text-anchor="start">18 stars</text>
+<text x="139" y="223" font-size="16" fill="#1f2328" font-weight="650" text-anchor="start">22 forks</text>
 </g>
-<path d="M511 225l11-11m-10 0h10v10" fill="none" stroke="#216e5e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M512 223l11-11m-10 0h10v10" fill="none" stroke="#216e5e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

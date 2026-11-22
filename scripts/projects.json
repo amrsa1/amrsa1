@@ -1,0 +1,40 @@
+[
+  {
+    "repo": "Astur-mobile/Astur",
+    "category": "Mobile testing",
+    "description": ["Playwright-style testing for real Android", "and iOS apps, with native agents and codegen."],
+    "npm": ["@astur-mobile/test", "astur-mobile", "create-astur", "@astur-mobile/cli", "@astur-mobile/core", "@astur-mobile/android", "@astur-mobile/ios", "@astur-mobile/protocol"]
+  },
+  {
+    "repo": "amrsa1/healwright",
+    "category": "AI test automation",
+    "description": ["Self-healing Playwright locators,", "verified by AI and cached for reuse."],
+    "npm": ["healwright"]
+  },
+  {
+    "repo": "amrsa1/swagger-mcp",
+    "category": "API developer tools",
+    "description": ["Explore and test APIs through", "Swagger and OpenAPI with MCP."],
+    "npm": ["swagger-mcp"]
+  },
+  {
+    "repo": "amrsa1/multimodal-hybrid-rag",
+    "category": "AI retrieval",
+    "description": ["Multimodal RAG with Gemini,", "or local text retrieval with Ollama."]
+  },
+  {
+    "repo": "amrsa1/Android-Emulator-image",
+    "category": "Mobile infrastructure",
+    "description": ["Run Android emulators in Docker", "for repeatable testing environments."]
+  },
+  {
+    "repo": "amrsa1/playwright-android",
+    "category": "Mobile browser testing",
+    "description": ["A Playwright starter for testing", "web applications on Android."]
+  },
+  {
+    "repo": "amrsa1/android-emulator-workflow",
+    "category": "Android CI",
+    "description": ["Set up an Android emulator", "in a GitHub Actions workflow."]
+  }
+]
