@@ -1,15 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="572" height="260" viewBox="-6 0 572 260" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="416" height="125" viewBox="0 0 416 125" role="img" aria-labelledby="title desc">
 <title id="title">playwright-android</title>
-<desc id="desc">playwright-android. A Playwright starter for testing web applications on Android. 24 stars, 6 forks.</desc>
-<rect x="1" y="1" width="558" height="246" rx="12" fill="#f6f8fa" stroke="#d8dee4"/>
-<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
-<text x="30" y="39" font-size="13" fill="#216e5e" font-weight="650" text-anchor="start">MOBILE BROWSER TESTING  /  TYPESCRIPT</text>
-<text x="30" y="94" font-size="30" fill="#1f2328" font-weight="650" text-anchor="start">playwright-android</text>
-<text x="30" y="140" font-size="19" fill="#59636e" font-weight="400" text-anchor="start">A Playwright starter for testing</text>
-<text x="30" y="165" font-size="19" fill="#59636e" font-weight="400" text-anchor="start">web applications on Android.</text>
-<path d="M30 195H530" stroke="#d8dee4"/>
-<text x="30" y="223" font-size="16" fill="#1f2328" font-weight="650" text-anchor="start">24 stars</text>
-<text x="139" y="223" font-size="16" fill="#1f2328" font-weight="650" text-anchor="start">6 forks</text>
+<desc id="desc">playwright-android. A Playwright starter for testing web applications on Android. TypeScript. GitHub stars: 24. Forks: 6.</desc>
+<rect x="3.5" y="4.5" width="409" height="115" rx="8" fill="#ffffff" stroke="#d8dee4"/>
+<g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">
+<path d="M4 2h8.5v10H5a2 2 0 0 0-2 2V4a2 2 0 0 1 1-2ZM3 14c0-1.1.9-2 2-2h7.5v2.5H5M6 5h4M6 8h4" transform="translate(18 18)" fill="none" stroke="#1955a5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="41" y="31" font-size="16" fill="#1955a5" font-weight="650">playwright-android</text>
+<text x="19" y="54" font-size="12.5" fill="#475569" font-weight="400">A Playwright starter for testing</text>
+<text x="19" y="71" font-size="12.5" fill="#475569" font-weight="400">web applications on Android.</text>
+<circle cx="23" cy="98" r="4.5" fill="#3178c6"/>
+<text x="33" y="102" font-size="12" fill="#53637a" font-weight="400">TypeScript</text>
+<path d="m8 1.9 1.8 3.7 4.1.6-3 2.9.7 4.1L8 11.3l-3.6 1.9.7-4.1-3-2.9 4.1-.6Z" transform="translate(121 90)" fill="none" stroke="#53637a" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="141" y="102" font-size="12" fill="#53637a" font-weight="400">24</text>
+<path d="M5.5 4a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm8 0a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm-4 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM4 5.5v1A2.5 2.5 0 0 0 6.5 9h3A2.5 2.5 0 0 0 12 6.5v-1M8 9v1.5" transform="translate(196 90)" fill="none" stroke="#53637a" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="216" y="102" font-size="12" fill="#53637a" font-weight="400">6</text>
 </g>
-<path d="M512 223l11-11m-10 0h10v10" fill="none" stroke="#216e5e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

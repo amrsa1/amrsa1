@@ -21,24 +21,42 @@ I build automation for web, mobile and APIs, and help teams make quality part of
 
 ## Selected projects
 
-Open source tools for better testing, simpler infrastructure and useful AI.
+<div align="center">
+<a href="https://github.com/Astur-mobile/Astur"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/Astur.svg" /><img src="./assets/project-cards/Astur.svg" width="400" alt="Astur: Playwright-style tests for real Android and iOS apps. Native agents, live inspection and codegen." /></picture></a>
+<a href="https://github.com/amrsa1/healwright"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/healwright.svg" /><img src="./assets/project-cards/healwright.svg" width="400" alt="healwright: Self-healing Playwright locators, verified by AI and cached for reuse." /></picture></a>
+<a href="https://github.com/amrsa1/Android-Emulator-image"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/Android-Emulator-image.svg" /><img src="./assets/project-cards/Android-Emulator-image.svg" width="400" alt="Android-Emulator-image: Run Android emulators in Docker for repeatable testing environments." /></picture></a>
+<a href="https://github.com/amrsa1/android-emulator-workflow"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/android-emulator-workflow.svg" /><img src="./assets/project-cards/android-emulator-workflow.svg" width="400" alt="android-emulator-workflow: Set up an Android emulator in a GitHub Actions workflow." /></picture></a>
+<a href="https://github.com/amrsa1/swagger-mcp"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/swagger-mcp.svg" /><img src="./assets/project-cards/swagger-mcp.svg" width="400" alt="swagger-mcp: Explore and test APIs through Swagger and OpenAPI using an MCP server." /></picture></a>
+<a href="https://github.com/amrsa1/playwright-APITesting"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/playwright-APITesting.svg" /><img src="./assets/project-cards/playwright-APITesting.svg" width="400" alt="playwright-APITesting: A Playwright starter for building maintainable API test suites." /></picture></a>
+<a href="https://github.com/amrsa1/playwright-android"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/playwright-android.svg" /><img src="./assets/project-cards/playwright-android.svg" width="400" alt="playwright-android: A Playwright starter for testing web applications on Android." /></picture></a>
+<a href="https://github.com/amrsa1/multimodal-hybrid-rag"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/multimodal-hybrid-rag.svg" /><img src="./assets/project-cards/multimodal-hybrid-rag.svg" width="400" alt="multimodal-hybrid-rag: Multimodal retrieval with Gemini or local text retrieval with Ollama." /></picture></a>
+</div>
 
-<a href="https://github.com/Astur-mobile/Astur"><picture><source media="(max-width: 1000px) and (prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/Astur-compact.svg" /><source media="(max-width: 1000px)" srcset="./assets/project-cards/Astur-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/Astur.svg" /><img src="./assets/project-cards/Astur.svg" width="836" alt="Astur: Playwright-style testing for real Android and iOS apps, with GitHub stars, forks and download counts for each npm package." /></picture></a>
+<details>
+<summary><strong>Astur npm downloads by package</strong></summary>
 
-<a href="https://github.com/amrsa1/healwright"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/healwright.svg" /><img src="./assets/project-cards/healwright.svg" width="416" alt="healwright — Self-healing Playwright locators, verified by AI and cached for reuse. TypeScript." /></picture></a> <a href="https://github.com/amrsa1/swagger-mcp"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/swagger-mcp.svg" /><img src="./assets/project-cards/swagger-mcp.svg" width="416" alt="swagger-mcp — Explore and test APIs through Swagger / OpenAPI with MCP. JavaScript." /></picture></a>
+Astur’s card shows downloads for <code>@astur-mobile/test</code>.
 
-<a href="https://github.com/amrsa1/multimodal-hybrid-rag"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/multimodal-hybrid-rag.svg" /><img src="./assets/project-cards/multimodal-hybrid-rag.svg" width="416" alt="multimodal-hybrid-rag — Multimodal RAG with Gemini, or local text retrieval with Ollama. TypeScript." /></picture></a> <a href="https://github.com/amrsa1/Android-Emulator-image"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/Android-Emulator-image.svg" /><img src="./assets/project-cards/Android-Emulator-image.svg" width="416" alt="Android-Emulator-image — Run Android emulators in Docker for repeatable testing environments. Shell." /></picture></a>
+<!-- astur-downloads:start -->
+| Package | Downloads in the last month |
+| :--- | ---: |
+| [`@astur-mobile/test`](https://www.npmjs.com/package/@astur-mobile/test) | 363 |
+| [`astur-mobile`](https://www.npmjs.com/package/astur-mobile) | 355 |
+| [`create-astur`](https://www.npmjs.com/package/create-astur) | 292 |
+| [`@astur-mobile/cli`](https://www.npmjs.com/package/@astur-mobile/cli) | 396 |
+| [`@astur-mobile/core`](https://www.npmjs.com/package/@astur-mobile/core) | 489 |
+| [`@astur-mobile/android`](https://www.npmjs.com/package/@astur-mobile/android) | 488 |
+| [`@astur-mobile/ios`](https://www.npmjs.com/package/@astur-mobile/ios) | 424 |
+| [`@astur-mobile/protocol`](https://www.npmjs.com/package/@astur-mobile/protocol) | 509 |
+<!-- astur-downloads:end -->
 
-<a href="https://github.com/amrsa1/playwright-android"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/playwright-android.svg" /><img src="./assets/project-cards/playwright-android.svg" width="416" alt="playwright-android — A Playwright starter for testing web applications on Android. TypeScript." /></picture></a> <a href="https://github.com/amrsa1/android-emulator-workflow"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-cards/dark/android-emulator-workflow.svg" /><img src="./assets/project-cards/android-emulator-workflow.svg" width="416" alt="android-emulator-workflow — Android emulator setup, ready for your GitHub Actions pipeline. Shell." /></picture></a>
-
-<sub>Stars, forks and npm downloads refresh daily. Download counts cover the last month.</sub>
+</details>
 
 <details>
 <summary><strong>More projects</strong> · API, mobile, desktop and developer tooling</summary>
 
 | Project | What it does |
 | :--- | :--- |
-| [playwright-APITesting](https://github.com/amrsa1/playwright-APITesting) | A structured starting point for API test automation with Playwright. |
 | [wdio-nativeApp](https://github.com/amrsa1/wdio-nativeApp) | Native Android automation with WebdriverIO and GitHub Actions. |
 | [wdio-xplatform-mobile-app](https://github.com/amrsa1/wdio-xplatform-mobile-app) | WebdriverIO testing for Android and iOS, with CI workflows. |
 | [desktopAppAutomationTest](https://github.com/amrsa1/desktopAppAutomationTest) | A practical proof of concept for desktop automation with WebdriverIO. |

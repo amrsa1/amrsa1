@@ -1,4 +1,4 @@
-"""Render the selected project cards from current GitHub and npm metrics."""
+"""Render the selected projects with current GitHub and npm counts."""
 
 from concurrent.futures import ThreadPoolExecutor
 from html import escape
@@ -11,10 +11,16 @@ from urllib.request import urlopen
 ROOT = Path(__file__).resolve().parents[1]
 CARDS = ROOT / 'assets/project-cards'
 THEMES = {
-    'light': ('#f6f8fa', '#d8dee4', '#1f2328', '#59636e', '#216e5e'),
-    'dark': ('#151b23', '#30363d', '#f0f6fc', '#a8b3bf', '#8bd5bc'),
+    'light': ('#ffffff', '#d8dee4', '#1955a5', '#475569', '#53637a'),
+    'dark': ('#1a1e2e', '#343a4f', '#a4bdff', '#c0c9de', '#a3afca'),
 }
-FONT = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+LANGUAGE_COLORS = {'TypeScript': '#3178c6', 'JavaScript': '#b28514', 'Shell': '#65a84c'}
+ICONS = {
+    'repo': 'M4 2h8.5v10H5a2 2 0 0 0-2 2V4a2 2 0 0 1 1-2ZM3 14c0-1.1.9-2 2-2h7.5v2.5H5M6 5h4M6 8h4',
+    'star': 'm8 1.9 1.8 3.7 4.1.6-3 2.9.7 4.1L8 11.3l-3.6 1.9.7-4.1-3-2.9 4.1-.6Z',
+    'fork': 'M5.5 4a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm8 0a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm-4 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM4 5.5v1A2.5 2.5 0 0 0 6.5 9h3A2.5 2.5 0 0 0 12 6.5v-1M8 9v1.5',
+    'download': 'M8 2v8m-3-3 3 3 3-3M3 11v2.5h10V11',
+}
 
 
 def npm_downloads(package):
@@ -29,94 +35,79 @@ def npm_downloads(package):
 
 def load_project(project):
     raw = subprocess.check_output(['gh', 'api', 'repos/' + project['repo']], text=True)
-    data = json.loads(raw)
-    project = {**project, 'metrics': data}
+    metrics = json.loads(raw)
     with ThreadPoolExecutor(max_workers=4) as pool:
-        project['downloads'] = dict(pool.map(npm_downloads, project.get('npm', [])))
-    return project
+        downloads = dict(pool.map(npm_downloads, project.get('npm', [])))
+    return {**project, 'metrics': metrics, 'downloads': downloads}
 
 
-def text(content, x, y, size, fill, *, weight=400, anchor='start'):
-    return (f'<text x="{x}" y="{y}" font-size="{size}" fill="{fill}" '
-            f'font-weight="{weight}" text-anchor="{anchor}">{escape(content)}</text>')
+def text(content, x, y, size, color, weight=400):
+    return (f'<text x="{x}" y="{y}" font-size="{size}" fill="{color}" '
+            f'font-weight="{weight}">{escape(content)}</text>')
 
 
-def line(x1, x2, y, stroke):
-    return f'<path d="M{x1} {y}H{x2}" stroke="{stroke}"/>'
+def icon(name, x, y, color):
+    return (f'<path d="{ICONS[name]}" transform="translate({x} {y})" fill="none" '
+            f'stroke="{color}" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>')
 
 
-def render(project, palette, layout):
-    background, border, title, body, accent = palette
+def render(project, palette):
+    background, border, accent, body, muted = palette
+    name = project['repo'].split('/')[-1]
     metrics = project['metrics']
-    name = project['repo'].split('/')[1]
-    stars, forks = metrics['stargazers_count'], metrics['forks_count']
-    stars_label = f'{stars:,} {"star" if stars == 1 else "stars"}'
-    forks_label = f'{forks:,} {"fork" if forks == 1 else "forks"}'
-    counts = project['downloads']
+    language = metrics['language']
+    stars = f'{metrics["stargazers_count"]:,}'
+    forks = f'{metrics["forks_count"]:,}'
+    package = project.get('featured_npm') or next(iter(project['downloads']), None)
     description = ' '.join(project['description'])
-    accessible = f'{name}. {description} {stars_label}, {forks_label}.'
-    if counts:
-        downloads = ', '.join(f'{package}: {count:,}' for package, count in counts.items())
-        accessible += f' npm downloads in the last month: {downloads}.'
-    width = 1144 if layout == 'wide' else 560
-    height = 340 if layout == 'compact' else 248
-    label = project['category'].upper() + '  /  ' + metrics['language'].upper()
-    elements = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width + 12}" height="{height + 12}" '
-        f'viewBox="-6 0 {width + 12} {height + 12}" role="img" aria-labelledby="title desc">',
-        f'<title id="title">{escape(name)}</title>',
-        f'<desc id="desc">{escape(accessible)}</desc>',
-        f'<rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="12" '
-        f'fill="{background}" stroke="{border}"/>',
-        f'<g font-family="{FONT}">',
-        text(label, 30, 39, 13, accent, weight=650),
-    ]
-    if layout == 'tile':
-        name_size = 27 if len(name) > 22 else 30
-        title_y, description_y = 94, 140
-    else:
-        name_size, title_y, description_y = 38, 92, 129
-    elements.append(text(name, 30, title_y, name_size, title, weight=650))
-    for index, segment in enumerate(project['description']):
-        elements.append(text(segment, 30, description_y + index * 25, 19, body))
+    summary = f'{name}. {description} {language}. GitHub stars: {stars}. Forks: {forks}.'
+    if package:
+        count = f'{project["downloads"][package]:,}'
+        summary += f' {package} npm downloads in the last month: {count}.'
 
-    footer = height - 25
-    footer_end = 520 if layout == 'wide' else width - 30
-    if layout != 'compact':
-        elements.append(line(30, footer_end, height - 53, border))
-    else:
-        footer = 190
+    elements = [
+        '<svg xmlns="http://www.w3.org/2000/svg" width="416" height="125" '
+        'viewBox="0 0 416 125" role="img" aria-labelledby="title desc">',
+        f'<title id="title">{escape(name)}</title>',
+        f'<desc id="desc">{escape(summary)}</desc>',
+        f'<rect x="3.5" y="4.5" width="409" height="115" rx="8" fill="{background}" stroke="{border}"/>',
+        '<g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">',
+        icon('repo', 18, 18, accent),
+        text(name, 41, 31, 16, accent, 650),
+    ]
+    for index, segment in enumerate(project['description']):
+        elements.append(text(segment, 19, 54 + index * 17, 12.5, body))
+
+    dot = LANGUAGE_COLORS.get(language, accent)
     elements.extend([
-        text(stars_label, 30, footer, 16, title, weight=650),
-        text(forks_label, 139, footer, 16, title, weight=650),
+        f'<circle cx="23" cy="98" r="4.5" fill="{dot}"/>',
+        text(language, 33, 102, 12, muted),
+        icon('star', 121, 90, muted),
+        text(stars, 141, 102, 12, muted),
+        icon('fork', 196, 90, muted),
+        text(forks, 216, 102, 12, muted),
     ])
-    if layout == 'tile' and counts:
-        count = next(iter(counts.values()))
-        elements.append(text(f'{count:,} npm downloads', 250, footer, 16, accent, weight=650))
-    if layout == 'wide':
-        elements.append(f'<path d="M550 30V218" stroke="{border}"/>')
-    if layout in ('wide', 'compact'):
-        wide = layout == 'wide'
-        heading_x, heading_y = (580, 39) if wide else (30, 224)
-        elements.append(text('NPM DOWNLOADS · LAST MONTH', heading_x, heading_y, 13, accent, weight=650))
-        elements.append(line(heading_x, width - 30, heading_y + 12, border))
-        right_column = 861 if wide else 295
-        column_ends = (829, 1114) if wide else (260, 530)
-        row_offset, row_height = (40, 36) if wide else (35, 22)
-        for index, (package, count) in enumerate(counts.items()):
-            column, row = divmod(index, 4)
-            y = heading_y + row_offset + row * row_height
-            elements.append(text(package, (heading_x, right_column)[column], y, 17, body))
-            elements.append(text(f'{count:,}', column_ends[column], y, 17, title, weight=650, anchor='end'))
-    arrow_x = width - 48
-    arrow_y = footer - 11 if layout == 'tile' else 29
-    elements.extend([
-        '</g>',
-        f'<path d="M{arrow_x} {arrow_y + 11}l11-11m-10 0h10v10" fill="none" '
-        f'stroke="{accent}" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>',
-        '</svg>',
-    ])
-    return '\n'.join(elements) + '\n'
+    if package:
+        elements.extend([
+            icon('download', 268, 90, muted),
+            text(f'{count} npm / mo', 289, 102, 12, muted),
+        ])
+    return '\n'.join([*elements, '</g>', '</svg>', ''])
+
+
+def refresh_package_table(downloads):
+    readme = ROOT / 'README.md'
+    start = '<!-- astur-downloads:start -->\n'
+    end = '<!-- astur-downloads:end -->'
+    before, table = readme.read_text().split(start)
+    _, after = table.split(end)
+    rows = [
+        '| Package | Downloads in the last month |',
+        '| :--- | ---: |',
+    ]
+    for package, count in downloads.items():
+        rows.append(f'| [`{package}`](https://www.npmjs.com/package/{package}) | {count:,} |')
+    readme.write_text(before + start + '\n'.join(rows) + '\n' + end + after)
 
 
 def main():
@@ -124,14 +115,13 @@ def main():
     with ThreadPoolExecutor(max_workers=4) as pool:
         projects = list(pool.map(load_project, projects))
     for project in projects:
-        name = project['repo'].split('/')[1]
-        layouts = ('wide', 'compact') if len(project['downloads']) > 1 else ('tile',)
+        name = project['repo'].split('/')[-1]
         for theme, palette in THEMES.items():
             directory = CARDS / 'dark' if theme == 'dark' else CARDS
-            for layout in layouts:
-                suffix = '-compact' if layout == 'compact' else ''
-                (directory / f'{name}{suffix}.svg').write_text(render(project, palette, layout))
+            (directory / f'{name}.svg').write_text(render(project, palette))
         print(f'Refreshed {project["repo"]}')
+    astur = next(project for project in projects if project['repo'] == 'Astur-mobile/Astur')
+    refresh_package_table(astur['downloads'])
 
 
 if __name__ == '__main__':
