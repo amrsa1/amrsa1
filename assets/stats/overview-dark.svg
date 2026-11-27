@@ -95,7 +95,7 @@
 
     <g data-testid="rank-circle" transform="translate(423.5, 47.5)">
         <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
-        <circle class="rank-circle" cx="-10" cy="8" r="40" stroke-dashoffset="90.28248574626976" transform="rotate(-90 -10 8)" />
+        <circle class="rank-circle" cx="-10" cy="8" r="40" stroke-dashoffset="90.31735745959634" transform="rotate(-90 -10 8)" />
         <g class="rank-text" transform="translate(-5 5)">
 
         <text x="-5" y="3" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon">
