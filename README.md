@@ -40,14 +40,14 @@ Astur’s card shows downloads for <code>@astur-mobile/test</code>.
 <!-- astur-downloads:start -->
 | Package | Downloads in the last month |
 | :--- | ---: |
-| [`@astur-mobile/test`](https://www.npmjs.com/package/@astur-mobile/test) | 389 |
-| [`astur-mobile`](https://www.npmjs.com/package/astur-mobile) | 382 |
-| [`create-astur`](https://www.npmjs.com/package/create-astur) | 318 |
-| [`@astur-mobile/cli`](https://www.npmjs.com/package/@astur-mobile/cli) | 421 |
-| [`@astur-mobile/core`](https://www.npmjs.com/package/@astur-mobile/core) | 521 |
-| [`@astur-mobile/android`](https://www.npmjs.com/package/@astur-mobile/android) | 519 |
-| [`@astur-mobile/ios`](https://www.npmjs.com/package/@astur-mobile/ios) | 446 |
-| [`@astur-mobile/protocol`](https://www.npmjs.com/package/@astur-mobile/protocol) | 535 |
+| [`@astur-mobile/test`](https://www.npmjs.com/package/@astur-mobile/test) | 216 |
+| [`astur-mobile`](https://www.npmjs.com/package/astur-mobile) | 244 |
+| [`create-astur`](https://www.npmjs.com/package/create-astur) | 162 |
+| [`@astur-mobile/cli`](https://www.npmjs.com/package/@astur-mobile/cli) | 236 |
+| [`@astur-mobile/core`](https://www.npmjs.com/package/@astur-mobile/core) | 276 |
+| [`@astur-mobile/android`](https://www.npmjs.com/package/@astur-mobile/android) | 298 |
+| [`@astur-mobile/ios`](https://www.npmjs.com/package/@astur-mobile/ios) | 244 |
+| [`@astur-mobile/protocol`](https://www.npmjs.com/package/@astur-mobile/protocol) | 288 |
 <!-- astur-downloads:end -->
 
 </details>
